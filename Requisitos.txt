@@ -1,0 +1,13 @@
+RQNF 01 - Projeto sem o uso de banco de dados
+RQNF 02 - Sem interface Gráfica
+
+Tentar criar duas formas de acesso, como Administrador e como Usuário (fazer acesso único para administrador e usuário flexível de acordo com )
+
+RQF 01 - Criar Produtos e quantidade com valor
+RQF 04 - Alterar nome e quantidade de produto e valor
+RQF 03 - Visualizar produtos e quantidade
+RQF 04 - Deletar quantidade de produto e deletar produto (somente se estiver 0 produtos)
+RQF 05 - Criar um menu para criar conta e senha com autenticação 
+RQF 06 - Possibilidade de alterar senha com uma tentativa de envio de e-mail com o envio de um código (Aprender como enviar e-mails)
+RQF 07 - Administrador pode sair do sistema a partir de uma opção e Usuário também
+RQF 08 - Usuário pode comprar um produto , pagar um valor e receber o troco
