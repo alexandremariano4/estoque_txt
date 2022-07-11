@@ -4,12 +4,9 @@ Preço;4567,46
 Produto;B450m
 Quantidade;21
 Preço;971,64
-Produto;Ryz 5 1600
-Quantidade;34
-Preço;1238,92
-Produto;Noteboko
-Quantidade;25
-Preço;7896,54
 Produto;Gtx 1660
 Quantidade;76
 Preço;2346,45
+Produto;Caixa som
+Quantidade;35
+Preço;45,35
