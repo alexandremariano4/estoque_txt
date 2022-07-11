@@ -1,7 +1,7 @@
 from logging import shutdown
 from time import sleep
 import cores
-import loja
+import estoque
 
 def Cadastrar():
     """
@@ -56,7 +56,7 @@ def Cadastrar():
     arquivo.write(f'{"Quantidade"};{quantidade}\n')
     arquivo.write(f'{"Preço"};{preco}\n')
     arquivo.close()
-    loja.menuAdm([f'{cores.color("roxo")}Cadastrar Produto{cores.color("limpa")}',f'{cores.color("amarelo")}Alterar Produto{cores.color("limpa")}', f'{cores.color("verde")}Deletar Produto{cores.color("limpa")}',f'{cores.color("azul")}Ver Produtos{cores.color("limpa")}',f'{cores.color("vermelho")}Sair do Sistema{cores.color("limpa")}'])
+    estoque.menuAdm([f'{cores.color("roxo")}Cadastrar Produto{cores.color("limpa")}',f'{cores.color("amarelo")}Alterar Produto{cores.color("limpa")}', f'{cores.color("verde")}Deletar Produto{cores.color("limpa")}',f'{cores.color("azul")}Ver Produtos{cores.color("limpa")}',f'{cores.color("vermelho")}Sair do Sistema{cores.color("limpa")}'])
 
 def VerificaDecimal(preco):
     if ValidaPreco(preco) > 1:
@@ -88,7 +88,7 @@ def Visualizar(sair=0):
         arquivo = open('produtos.txt','r',encoding='utf-8')
         if ArquivoVazio() == True:
             print(f'{cores.color("amarelo")}Sem produtos cadastrado na base de dados, cadastre novos produtos.{cores.color("limpa")}')
-            loja.menuAdm([f'{cores.color("roxo")}Cadastrar Produto{cores.color("limpa")}',f'{cores.color("amarelo")}Alterar Produto{cores.color("limpa")}', f'{cores.color("verde")}Deletar Produto{cores.color("limpa")}',f'{cores.color("azul")}Ver Produtos{cores.color("limpa")}',f'{cores.color("vermelho")}Sair do Sistema{cores.color("limpa")}'])
+            estoque.menuAdm([f'{cores.color("roxo")}Cadastrar Produto{cores.color("limpa")}',f'{cores.color("amarelo")}Alterar Produto{cores.color("limpa")}', f'{cores.color("verde")}Deletar Produto{cores.color("limpa")}',f'{cores.color("azul")}Ver Produtos{cores.color("limpa")}',f'{cores.color("vermelho")}Sair do Sistema{cores.color("limpa")}'])
 
         
         print('--'*43)
@@ -133,7 +133,7 @@ def Visualizar(sair=0):
                 Sair()
             if 'S' == voltar:
                 sleep(2)
-                loja.menuAdm([f'{cores.color("roxo")}Cadastrar Produto{cores.color("limpa")}',f'{cores.color("amarelo")}Alterar Produto{cores.color("limpa")}', f'{cores.color("verde")}Deletar Produto{cores.color("limpa")}',f'{cores.color("azul")}Ver Produtos{cores.color("limpa")}',f'{cores.color("vermelho")}Sair do Sistema{cores.color("limpa")}'])
+                estoque.menuAdm([f'{cores.color("roxo")}Cadastrar Produto{cores.color("limpa")}',f'{cores.color("amarelo")}Alterar Produto{cores.color("limpa")}', f'{cores.color("verde")}Deletar Produto{cores.color("limpa")}',f'{cores.color("azul")}Ver Produtos{cores.color("limpa")}',f'{cores.color("vermelho")}Sair do Sistema{cores.color("limpa")}'])
         except Exception as error:
             print(f'Erro no processo de saída da visualização de produtos{error.__class__}')  
     
@@ -223,7 +223,7 @@ def Alterar():
             arquivo.write(item)
     print(f'{cores.color("verde")}{nome}{cores.color("limpa")} {cores.color("amarelo")}foi alterado com sucesso!{cores.color("limpa")}')
     sleep(1.5)
-    loja.menuAdm([f'{cores.color("roxo")}Cadastrar Produto{cores.color("limpa")}',f'{cores.color("amarelo")}Alterar Produto{cores.color("limpa")}', f'{cores.color("verde")}Deletar Produto{cores.color("limpa")}',f'{cores.color("azul")}Ver Produtos{cores.color("limpa")}',f'{cores.color("vermelho")}Sair do Sistema{cores.color("limpa")}'])    
+    estoque.menuAdm([f'{cores.color("roxo")}Cadastrar Produto{cores.color("limpa")}',f'{cores.color("amarelo")}Alterar Produto{cores.color("limpa")}', f'{cores.color("verde")}Deletar Produto{cores.color("limpa")}',f'{cores.color("azul")}Ver Produtos{cores.color("limpa")}',f'{cores.color("vermelho")}Sair do Sistema{cores.color("limpa")}'])    
         
     
 def Deletar():
@@ -279,7 +279,7 @@ def Deletar():
             opcao = str(input(f'{cores.color("vermelho")}Digite uma opção válida para apagar ou não um produto [S/N] {cores.color("limpa")}')).upper().strip()[0]
         if opcao == 'N':
             break
-    loja.menuAdm([f'{cores.color("roxo")}Cadastrar Produto{cores.color("limpa")}',f'{cores.color("amarelo")}Alterar Produto{cores.color("limpa")}', f'{cores.color("verde")}Deletar Produto{cores.color("limpa")}',f'{cores.color("azul")}Ver Produtos{cores.color("limpa")}',f'{cores.color("vermelho")}Sair do Sistema{cores.color("limpa")}'])       
+    estoque.menuAdm([f'{cores.color("roxo")}Cadastrar Produto{cores.color("limpa")}',f'{cores.color("amarelo")}Alterar Produto{cores.color("limpa")}', f'{cores.color("verde")}Deletar Produto{cores.color("limpa")}',f'{cores.color("azul")}Ver Produtos{cores.color("limpa")}',f'{cores.color("vermelho")}Sair do Sistema{cores.color("limpa")}'])       
            
 def Sair():
     print(f'{cores.color("verde")}Encerrando o sistema...Até logo!{cores.color("limpa")}')

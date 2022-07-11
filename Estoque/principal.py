@@ -2,7 +2,7 @@ from logging import shutdown
 from os import system
 from time import sleep
 import login
-import loja
+import estoque
 import cores
 import produtos
 
@@ -24,7 +24,7 @@ try:
     #         print(f'{cores.color("vermelho")}Menu de Cliente Ainda em construção, acesse o menu Administrador.{cores.color("limpa")}')
     #         sleep(1.5)
             
-    #         # loja.menuCli(['Ver Produtos','Comprar Produtos','Sair do Sistema'])    
+    #         # estoque.menuCli(['Ver Produtos','Comprar Produtos','Sair do Sistema'])    
     #         break
 
     if opcao == '2':
@@ -37,7 +37,7 @@ try:
         if autenticador == '0':
             produtos.Sair()
         if autenticador == 'admin':
-            loja.menuAdm([f'{cores.color("roxo")}Cadastrar Produto{cores.color("limpa")}',f'{cores.color("amarelo")}Alterar Produto{cores.color("limpa")}', f'{cores.color("verde")}Deletar Produto{cores.color("limpa")}',f'{cores.color("azul")}Ver Produtos{cores.color("limpa")}',f'{cores.color("vermelho")}Sair do Sistema{cores.color("limpa")}'])    
+            estoque.menuAdm([f'{cores.color("roxo")}Cadastrar Produto{cores.color("limpa")}',f'{cores.color("amarelo")}Alterar Produto{cores.color("limpa")}', f'{cores.color("verde")}Deletar Produto{cores.color("limpa")}',f'{cores.color("azul")}Ver Produtos{cores.color("limpa")}',f'{cores.color("vermelho")}Sair do Sistema{cores.color("limpa")}'])    
             
         else:
             opcao = str(input('Favor digitar uma opção válida [1] Cliente [2] ADM: ')).strip()

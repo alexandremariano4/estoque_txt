@@ -11,14 +11,14 @@ opcoesAdm = {1:produtos.Cadastrar,
 
 
 
-def menuCli(lista):
-    login.cabeçalho('Menu Cliente')
-    cont = 1
-    for item in lista:
-        print(f'{cont} - {item}')
-        cont += 1
-    print(login.linha())
-    opcao = int(input(f'{cores.color("azul")}Digite sua opção: {cores.color("limpa")}'))
+# def menuCli(lista):
+#     login.cabeçalho('Menu Cliente')
+#     cont = 1
+#     for item in lista:
+#         print(f'{cont} - {item}')
+#         cont += 1
+#     print(login.linha())
+#     opcao = int(input(f'{cores.color("azul")}Digite sua opção: {cores.color("limpa")}'))
 
 
 
