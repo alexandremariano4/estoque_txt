@@ -6,7 +6,7 @@
 
 Feito com intuito de aprimoramento e estudo da linguagem Python com uma dificuldade de utilizar um armazenamento de dados não convencional.
                                                                                                
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-<br/>
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-<br/>
 Inicialmente o propósito do projeto de treino era fazer um sistema estilo uma loja, porém, decidi mudar e deixar para ser apenas um sistema de estoque.<br/>
 O sistema foi construído somente utilizando módulos, sem pacotes, os módulos utilizados foram:
 _______________________________________________________________________________________________________________________
