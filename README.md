@@ -12,13 +12,13 @@ Inicialmente o propósito do projeto de treino era fazer um sistema estilo uma l
 O sistema foi construído somente utilizando módulos, sem pacotes, os módulos utilizados foram:
 _______________________________________________________________________________________________________________________
 Principal → Módulo inicial do sistema onde acontece a primeira interação com usuário
-\n
+
 Cores → Módulo feito com uma única função de utilizar cores no terminal 
-\n
+
 Login → Toda a validação para realizar o Login de usuário, com validações se o usuário existe ou não, entre outros.
-\n
+
 Estoque → Onde o usuário é enviando para o menu de administrador
-\n
+
 Produtos → Toda parte de cadastro,alteração,visualização dos produtos do sistema.
 _______________________________________________________________________________________________________________________
 
