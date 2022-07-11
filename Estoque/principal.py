@@ -6,6 +6,7 @@ import estoque
 import cores
 import produtos
 
+#Fazer um caos aqui
 
 login.menuLogin()
 
