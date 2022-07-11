@@ -1,6 +1,0 @@
-Usuario;Teste
-Senha;12345
-Usuario;Alexandre
-Senha;123
-Usuario;Kappa
-Senha;123
