@@ -17,3 +17,9 @@ ________________________________________________________________________________
 * **Produtos** → Toda parte de cadastro,alteração,visualização dos produtos do sistema.
 _______________________________________________________________________________________________________________________
 
+* **Menu principal da execução do sistema no terminal**<br/><br/>
+![menuEstoque](https://user-images.githubusercontent.com/89090315/178354375-c8ec7689-a48f-41c3-ad3c-319d9f2fd397.png)
+_______________________________________________________________________________________________________________________
+
+* [Acesse meu GitHub](https://github.com/alexandremariano4)
+* [Acesse Meu Linkedin](https://www.linkedin.com/in/alexandre-mariano4/)
