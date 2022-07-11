@@ -6,7 +6,7 @@ import estoque
 import cores
 import produtos
 
-#Testando as Branchs
+
 
 login.menuLogin()
 
