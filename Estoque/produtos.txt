@@ -1,12 +1,9 @@
 Produto;Rtx 3060
 Quantidade;12
 Preço;4567,46
-Produto;B450m
-Quantidade;21
-Preço;971,64
-Produto;Gtx 1660
-Quantidade;76
-Preço;2346,45
+Produto;Gtx 1650
+Quantidade;50
+Preço;2463,64
 Produto;Caixa som
 Quantidade;35
 Preço;45,35
